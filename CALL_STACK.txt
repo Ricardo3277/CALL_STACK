@@ -1,0 +1,13 @@
+CALL STACK CON MIS PROPIAS PALABRAS
+
+El call stack es prácticamente el orden de las pilas, siguiendo el orden de o sus siglas LIFO “Last In First Out” donde el último en entrar va a ser el primero en salir 
+y como tal el motor lee el código haciendo que cada función lo guarda y la almacena, haciendo que solo pueda hacer una sola cosa a la vez, cuando termina de ejecutar la 
+función con la que estaba trabajando, la saca de la pila al encontrarse con un return.
+
+Haciendo que siga la siguiente función, esto lo podemos ejemplificar de la mejor maneja al momento de querer hacer alguna multiplicación, donde al momento de ejecutar, 
+lo primero que hace es el leer el número que se ingrese y lo guarda en la dichosa pila, lo que sigue obvio es el leer el siguiente número, para eso igual lo guarda en 
+la pila igualmente así que lo último que lee de la función es el hacer la multiplicación.
+
+Al terminar de hacer esa ejecución lo que hace llamar la función que mostrara el resultado, con eso ya tenemos la ejecución concluida, 
+así que ya empieza a sacar funciones de la dichosa pila, sacando ahora la función de mostrar resultado, luego la de multiplicación de números y 
+al final saca los números que se ingresaron.
